@@ -82,11 +82,13 @@
 .Barbershop-body {
   background-color: black;
 }
-.Barbershop-body .portfolio-menu {
+.Barbershop-body .portfolio-menu,
+.upgrade51-body .portfolio-menu {
   background-color: white;
   margin-top: 0;
 }
-.Barbershop-body .promo-text {
+.Barbershop-body .promo-text,
+.upgrade51-body .promo-text {
   margin-top: 0;
 }
 
