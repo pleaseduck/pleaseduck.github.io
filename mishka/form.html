@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Вязание на заказ</title>
+  </head>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="../style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <body>
+    <div class="portfolio-menu">
+      <p class="promo-text">Вы можете переключаться между проектами с помощью меню</p>
+      <div class="main-menu">
+        <ul class="menu-main">
+          <li><a href="#" class="current">mishka</a></li>
+          <li><a href="../Nerds/index.html">Nerds</a></li>
+          <li><a href="../Barber/index.html">Barbershop</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div>
+      <p class="promo-text">
+      <span>
+        Макет интернет-магазина мягких игрушек сверстан с использованием препроцессора LESS и системы контроля версий Git.
+        Для именования классов используется методология БЭМ. <br>
+        Макет включает в себя 3 html-страницы(
+        <a href="index.html" class="underline">Главная</a>
+        <a href="#" class="underline">Вязание на заказ</a>
+        <a href="catalog.html" class="underline">Каталог</a>
+        ), каждая из которых является резиновой и адаптивной( происходит 2 кардинальных перестроения сетки).
+        Наиболее важные элементы страниц выдерживают тест на переполнение контентом.
+        Используются адаптивные контентные и фоновые изображения( картинки меняются, в зависимости от текущего размера экрана).
+        Для проекта настроена автоматизация и оптимизация с помощью таск-менеджера Grunt.
+      </span>
+    </p>
+    </div>
+    <header class="page-header">
+      <nav class="main-nav  main-nav--closed">
+        <a href="index.html" class="anchor-for-main"></a>
+         <div class="main-nav__logo"><a class="site-logo active">
+          <picture>
+             <source media="(min-width: 1050px)" srcset="img/mishka-logo-desktop.svg">
+               <source media="(min-width: 768px)" srcset="img/mishka-logo-tablet.svg">
+             <img src="img/mishka-logo-mobile.svg" alt="mishka logo">
+           </picture>
+         </a>
+         <span class="main-nav__menu-closer"></span>
+       </div>
+       <div class="group-1">
+         <div class="main-nav__list__item"><a href="catalog.html">Каталог товаров</a></div>
+         <div class="main-nav__list__item"><a href="#">Вязание на заказ</a></div>
+       </div>
+       <div class="main-nav__list__item main-nav__list__item--mobile-hidden  group-4"><span>Бесплатная доставка по россии</span></div>
+       <div class="group-2">
+         <div class="main-nav__list__item main-nav__list__item--search"><a href="#">Поиск по сайту</a></div>
+         <div class="main-nav__list__item main-nav__list__item--basket"><a href="#" class="backet-empty">Корзина:пока пуста</a></div>
+       </div>
+       <div class="group-3">
+         <div class="main-nav__list__item  main-nav__list__item--mobile-hidden  main-nav__list__item--tablet-hidden"><a href="#">Новые поступления</a></div>
+         <div class="main-nav__list__item  main-nav__list__item--mobile-hidden  main-nav__list__item--tablet-hidden"><a href="#">Распродажа</a></div>
+       </div>
+      </nav>
+      <div class="extra-nav-wrapper">
+      <div class="extra-nav--form">
+        <h2 class="extra-nav__title">Вязание на заказ</h2>
+      </div>
+    </div>
+    </header>
+    <main>
+      <p class="order-form__description">
+        Мы будем рады вопролить в жизнь ваши пожелания! Заполните простую форму заказа, и мы свяжемся с вами, чтобы уточнить детали.
+      </p>
+      <form action="post" class="order-form">
+        <fieldset class="order-form__type">
+          <div class="order-form__wrapper">
+          <div class="order-form__group-1">
+            <legend><span class="white-bg">Тип</span></legend>
+          </div>
+          <div class="order-form__group-2">
+          <input type="radio" class="order-form__radio" id="radio-1">
+          <label for="radio-1">Аксессуар для интерьера</label>
+          <input type="radio" class="order-form__radio" id="radio-2">
+          <label for="radio-2">Детская игрушка</label>
+        </div>
+      </div>
+        </fieldset>
+        <fieldset class="order-form__color">
+            <div class="order-form__wrapper">
+          <div class="order-form__group-1">
+            <legend><span class="white-bg">Цвет</span></legend>
+          </div>
+          <div class="order-form__group-2">
+          <input type="checkbox" id="check-1">
+          <label for="check-1"><span class="white-block"></span>Белый</label>
+          <input type="checkbox" id="check-2">
+          <label for="check-2"><span class="white-block"></span>Серый</label>
+          <input type="checkbox" id="check-3">
+          <label for="check-3"><span class="white-block"></span>«Тиффани»</label>
+          <input type="checkbox" id="check-4">
+          <label for="check-4"><span class="white-block"></span>Черный</label>
+          <input type="checkbox" id="check-5">
+          <label for="check-5"><span class="white-block"></span>Розовый</label>
+          <input type="checkbox" id="check-6">
+          <label for="check-6"><span class="white-block"></span>Оранжевый</label>
+        </div>
+      </div>
+        </fieldset>
+        <fieldset class="order-form__initials">
+            <div class="order-form__wrapper">
+         <div class="order-form__group-1">
+          <legend><span class="white-bg">ФИО</span></legend>
+        </div>
+        <div class="order-form__group-2">
+          <div class="label-group">
+            <label for="surname" >Фамилия:</label>
+          <input type="text" placeholder="Укажите фамилию" id="surname" class="surname-input" required>
+        </div>
+        <div class="label-group">
+          <label for="name">Имя:</label>
+          <input type="text" placeholder="Введите ваше имя" id="name" required>
+        </div>
+        <div class="label-group">
+          <label for="patronymic">Отчество:</label>
+          <input type="text" placeholder="Отчество,если желаете" id="patronymic">
+        </div>
+        </div>
+      </div>
+        </fieldset>
+        <div class="communication-group">
+        <fieldset class="order-form__tel">
+          <div class="order-form__wrapper">
+          <div class="order-form__group-1">
+            <legend><span class="white-bg">Тел</span></legend>
+          <input type="tel" placeholder="+7 XXX XX XX" required>
+        </div>
+        </div>
+        </fieldset>
+        <fieldset class="order-form__mail">
+            <div class="order-form__wrapper">
+          <div class="order-form__group-2">
+          <legend><span class="white-bg">E-mail</span></legend>
+          <input type="email" placeholder="Ваш e-mail" required>
+          </div>
+        </div>
+        </fieldset>
+      </div>
+        <fieldset class="order-form__extra-text">
+            <div class="order-form__wrapper">
+          <div class="order-form__group-1">
+          <legend><span class="white-bg">Доп</span></legend>
+          <textarea name="Доп"  rows="7" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+        </div>
+      </div>
+        </fieldset>
+        <div class="order-form__footer order-form__wrapper">
+        <input type="submit" class="btn" value="ОТПРАВИТЬ ЗАКАЗ">
+        <span class="order-form__hint mobile-hidden">Все поля являются обязательными</span>
+      </div>
+      </form>
+    </main>
+    <footer class="page-footer">
+      <a href="#" class="site-logo site-logo--mobile-hidden"></a>
+      <div class="page-footer__social">
+        <a href="http://instagram.com/please_duke" class="social social--inst" width="23" height="30">Inst</a>
+        <a href="#" class="social social--fb" width="23" height="30">fb</a>
+        <a href="#" class="social social--twitter" width="23" height="30">Twitter</a>
+      </div>
+      <a href="https://htmlacademy.ru/" class="design"><span>Разработано</span></a>
+    </footer>
+  </body>
+    <script type="text/javascript" src="js/script.js"></script>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Каталог товаров</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  </head>
+  <body>
+    <div class="portfolio-menu">
+      <p class="promo-text">Вы можете переключаться между проектами с помощью меню</p>
+      <div class="main-menu">
+        <ul class="menu-main">
+          <li><a href="#" class="current">mishka</a></li>
+          <li><a href="../Nerds/index.html">Nerds</a></li>
+          <li><a href="../Barber/index.html">Barbershop</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div>
+      <p class="promo-text">
+      <span>
+        Макет интернет-магазина мягких игрушек сверстан с использованием препроцессора LESS и системы контроля версий Git.
+        Для именования классов используется методология БЭМ. <br>
+        Макет включает в себя 3 html-страницы(
+        <a href="index.html" class="underline">Главная</a>
+        <a href="form.html" class="underline">Вязание на заказ</a>
+        <a href="#" class="underline">Каталог</a>
+        ), каждая из которых является резиновой и адаптивной( происходит 2 кардинальных перестроения сетки).
+        Наиболее важные элементы страниц выдерживают тест на переполнение контентом.
+        Используются адаптивные контентные и фоновые изображения( картинки меняются, в зависимости от текущего размера экрана).
+        Для проекта настроена автоматизация и оптимизация с помощью таск-менеджера Grunt.
+      </span>
+    </p>
+    </div>
+    <header class="page-header">
+      <nav class="main-nav  main-nav--closed">
+        <a href="index.html" class="anchor-for-main"></a>
+        <div class="main-nav__logo">
+          <a class="site-logo active">
+            <picture>
+              <source media="(min-width: 1050px)" srcset="img/mishka-logo-desktop.svg">
+              <source media="(min-width: 768px)" srcset="img/mishka-logo-tablet.svg">
+              <img src="img/mishka-logo-mobile.svg" alt="mishka logo">
+            </picture>
+          </a>
+          <span class="main-nav__menu-closer"></span>
+         </div>
+         <div class="group-1">
+           <div class="main-nav__list__item"><a href="#">Каталог товаров</a></div>
+           <div class="main-nav__list__item"><a href="form.html">Вязание на заказ</a></div>
+         </div>
+         <div class="main-nav__list__item main-nav__list__item--mobile-hidden  group-4">
+           <span>Бесплатная доставка по россии</span>
+         </div>
+         <div class="group-2">
+           <div class="main-nav__list__item main-nav__list__item--search">
+             <a href="#">Поиск по сайту</a>
+           </div>
+           <div class="main-nav__list__item main-nav__list__item--basket">
+             <a href="#" class="backet-empty">Корзина:пока пуста</a>
+           </div>
+         </div>
+         <div class="group-3">
+           <div class="main-nav__list__item  main-nav__list__item--mobile-hidden  main-nav__list__item--tablet-hidden"><a href="#">Новые поступления</a></div>
+           <div class="main-nav__list__item  main-nav__list__item--mobile-hidden  main-nav__list__item--tablet-hidden"><a href="#">Распродажа</a></div>
+         </div>
+      </nav>
+      <div class="extra-nav-wrapper">
+        <div class="extra-nav--catalog">
+          <h2 class="extra-nav__title">Каталог товаров</h2>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="product-list">
+        <article class="product-article">
+          <div class="product-article__photo">
+            <picture>
+              <source  media="(min-width:1050px)" srcset="img/rabbit-desktop.jpg">
+              <source media="(min-width:768px)" srcset="img/rabbit-tablet.jpg">
+              <img src="img/rabbit-mobile.jpg" alt="Зайчик-попрыгайчик">
+            </picture>
+          </div>
+          <div class="product-article__content-wrapper">
+            <a href="#" class="product-article__title">Зайчик-попрыгайчик</a>
+            <span class="product-article__description">Рост 30 см, вес 200 г</span><br>
+            <a href="#" class="product-article__price">1 200 руб.</a>
+        </div>
+        </article>
+        <article class="product-article">
+          <div class="product-article__photo">
+            <picture>
+              <source  media="(min-width:1050px)" srcset="img/basket-desktop.jpg">
+              <source media="(min-width:768px)" srcset="img/basket-tablet.jpg">
+              <img src="img/basket-mobile.jpg" alt="Корзинка для белья">
+            </picture>
+          </div>
+          <div class="product-article__content-wrapper">
+            <a href="#" class="product-article__title">Корзинка для белья</a>
+            <span class="product-article__description">Диаметр 15 см, высота 10 см</span> <br>
+            <a href="#" class="product-article__price">690 руб.</a>
+          </div>
+        </article>
+        <article class="product-article">
+          <div class="product-article__photo">
+            <picture>
+              <source  media="(min-width:1050px)" srcset="img/bigbasket-desktop.jpg">
+              <source media="(min-width:768px)" srcset="img/bigbasket-tablet.jpg">
+              <img src="img/bigbasket-mobile.jpg" alt="Большая корзинка для игрушек">
+            </picture>
+          </div>
+          <div class="product-article__content-wrapper">
+            <a href="#" class="product-article__title">Большая корзинка<br class="mobile-hidden"> для игрушек</a>
+            <span class="product-article__description">Диаметр 30 см, высота 30 см</span><br>
+            <a href="#" class="product-article__price">1 500 руб.</a>
+        </div>
+        </article>
+      </div>
+      <div class="making-process">
+        <div class="making-process__video only-mobile-hidden">
+          <a href="#" class="video">
+            <picture>
+                <source media="(min-width:1050px)" srcset="img/video-desktop.jpg">
+                <source media="(min-width:768px)" srcset="img/video-tablet.jpg">
+               <img src="img/video-mobile.jpg" alt="Видео">
+            </picture>
+          </a>
+        </div>
+        <div class="making-process__content-wrapper">
+          <h2 class="making-process__title">Процесс производства</h2>
+          <div class="making-process__video only-mobile-visible">
+            <a href="#" class="video">
+              <picture>
+                <source media="(min-width:1050px)" srcset="img/video-desktop.jpg">
+                <source media="(min-width:768px)" srcset="img/video-tablet.jpg">
+               <img src="img/video-mobile.jpg" alt="Видео">
+              </picture>
+            </a>
+          </div>
+          <p class="making-process__content">
+            По просьбам наших любимых фоловверов мы сняли для вас подробное видео о том, как появляются наши товары
+          </p>
+          <a href="form.html" class="btn">Сделать заказ</a>
+        </div>
+      </div>
+    </main>
+    <footer class="page-footer">
+      <a href="index.html" class="site-logo site-logo--mobile-hidden"></a>
+      <div class="page-footer__social">
+        <a href="http://instagram.com/please_duke" class="social social--inst" width="23" height="30">Inst</a>
+        <a href="#" class="social social--fb" width="23" height="30">fb</a>
+        <a href="#" class="social social--twitter" width="23" height="30">Twitter</a>
+      </div>
+      <a href="https://htmlacademy.ru/" class="design"><span>Разработано</span></a>
+    </footer>
+  </body>
+    <script type="text/javascript" src="js/script.js"></script>
+</html>
