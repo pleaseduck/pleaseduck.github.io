@@ -83,12 +83,14 @@
   background-color: black;
 }
 .Barbershop-body .portfolio-menu,
-.upgrade51-body .portfolio-menu {
+.upgrade51-body .portfolio-menu,
+.how-correct-body .portfolio-menu {
   background-color: white;
   margin-top: 0;
 }
 .Barbershop-body .promo-text,
-.upgrade51-body .promo-text {
+.upgrade51-body .promo-text,
+.how-correct-body .promo-text {
   margin-top: 0;
 }
 
