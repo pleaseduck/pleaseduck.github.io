@@ -1,0 +1,369 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+
+//Extra large: ≥1200px
++media-breakpoint-down(xl)
+  .target-audience_heading
+    text-align: left
+
+//Large: ≥992px
++media-breakpoint-down(lg)
+  .button
+    font-size: 18px
+  #my-menu
+    position: absolute
+    top: -50px
+    opacity: 0
+    &.menu-opened
+      position: static
+      text-outline: 0
+      opacity: 1
+  #my-menu
+  	ul
+  		display: block
+  		padding-left: 0
+  		li
+  			display: block
+        width: 100%
+  			&.active, &:hover
+  				a
+  					color: #fff
+  					background-color: #000
+  					text-decoration: none
+  			a
+  				padding: 8px
+  				padding-left: 6px
+  				padding-right: 6px
+  				color: #000
+  				text-transform: uppercase
+  				font-size: 13px
+  				border-radius: 35px
+
+  .header_tel-wrapper
+    order: -10
+    justify-content: space-between !important
+    .hamburger
+      padding-top: 0
+      padding-bottom: 0
+    .hamburger-inner, .hamburger-inner::after, .hamburger-inner::before
+      display: inline-block
+
+  .header-logo
+    padding-top: 13px
+    padding-bottom: 5px
+
+  .header_promo-content
+    background-size: cover
+    .h1, .h2
+      text-align: right
+
+  .motivation
+    padding-top: 55px
+    padding-bottom: 80px
+    .h3
+      margin-bottom: 85px
+    .motivation_text
+      margin-top: 10px
+      span
+        display: block
+        text-align: center
+        margin-bottom: 45px
+      p
+        margin-bottom: 40px
+  .feedback-form
+    .phone, .email
+      font-size: 21px
+
+  .feedback-form .social-container
+    margin-top: -40px
+
+  .footer .footer_contacts .tel
+    font-size: 16px
+//Medium: ≥768px
++media-breakpoint-down(md)
+    .header_promo-content
+      .h1, .h2
+        font-size: 22px
+        line-height: 30px
+        div
+          line-height: 30px
+          font-size: 30px
+
+
+    .header_promo-content
+      .h1
+        text-align: right
+        //white-space: nowrap
+        span
+          display: block
+          text-align: right
+      .button--white
+        display: none
+      .h2
+        color: #40474d
+      .button
+        width: 100%
+
+      .button
+        font-size: 21px
+
+
+    .h3
+      font-size: 25px
+      &::after
+        bottom: -10px
+
+    .greeting
+      padding-top: 50px
+      padding-bottom: 50px
+      .h3
+        margin-bottom: 40px
+
+
+    .target-audience_heading
+      display: block
+      text-align: center
+
+    .target-audience_image-wrapper
+      display: block
+      text-align: center
+    .target-audience_women
+    	.button
+        display: block
+        margin-top: 25px
+        margin-bottom: 55px
+
+    .target-audience_char:last-child
+    	margin-bottom: 25px
+
+    .algorithm_step--second
+    	&::after
+    		background-image: url(../img/arrow2.svg)
+    		top: 85px
+    		left: -200px
+    .algorithm_step--third
+    	&::after
+    		background-image: url(../img/arrow3.svg)
+    		bottom: -50px
+    		right: -50px
+    .algorithm_step--fourth
+    	&::after
+    		background-image: url(../img/arrow4.svg)
+    		bottom: -105px
+    		left: -60px
+    .algorithm_step--fifth
+    	&::after
+    		background-image: url(../img/arrow5.svg)
+    		bottom: -130px
+    		right: 0px
+
+    .about-coach .text-block
+      margin-left: 0
+      top: 0
+      padding-bottom: 50px
+
+    .about-coach
+      padding-bottom: 50px
+      padding-top: 30px
+      .button-wrapper
+        order: 10
+      .social-wrapper
+        margin-bottom: 33.9px
+      .button
+        bottom: -16.1px
+      .social
+        bottom: 0
+      .text-block
+         padding-bottom: 0
+
+    .about-coach .text-block ul
+      margin-bottom: 40px
+
+    .about-coach .text-block .about-coach_rank
+      margin-bottom: 50px
+
+    .payment
+      padding-bottom: 50px
+      padding-top: 50px
+      .h3
+        margin-bottom: 20px
+      .semi-heading, p
+        font-size: 18px
+        margin-bottom: 40px
+      .tariff-carousel
+        .text-wrapper
+          padding: 20px 5px
+          p
+            font-size: 18px
+
+    .payment .tariff-carousel .sale-price
+      margin-bottom: -20px
+
+    .questions
+      padding-top: 50px
+      .questions-wrapper
+      	width: 100%
+
+    .feedback-form
+      padding-top: 50px
+      padding-bottom: 70px
+      .h3
+        margin-bottom: 60px
+        text-align: center
+      .contacts-wrapper
+        text-align: center
+      .social-container
+        margin-top: 20px
+        .vk
+          margin-bottom: 20px
+      form
+        text-align: center
+        label
+          max-width: 415px
+          width: 100%
+          text-align: left
+          margin: auto
+    .footer
+      text-align: center
+      .footer_contacts
+        .social
+          text-align: center
+          margin-bottom: 23px
+        .tel
+          margin-bottom: 15px
+      .payment-methods
+        .row
+          div
+            justify-content: center !important
+      .footer_copyright, .footer_button
+        margin-bottom: 30px
+
+
+//Small: ≥576px
++media-breakpoint-down(sm)
+  .header_promo-content
+    .button
+      font-size: 14px
+
+
+  .header_promo-content
+    .header_buttons-wrapper
+      margin-bottom: 38px
+
+  .h1, .h2
+    font-size: 15px
+    line-height: 26px
+
+  .header_promo-content
+    .h1
+      div
+        //font-size: 22px
+        //white-space: nowrap
+    .h2
+      margin-bottom: 5px
+      div
+        font-weight: 800
+        //font-size: 22px
+
+  .h3
+    font-size: 18px
+
+  .target-audience
+    .button
+      font-size: 13px
+
+  .algorithm_step::after
+      display: none !important
+
+  .algorithm
+    padding-top: 100px
+    padding-bottom: 50px
+    &_semi-heading
+      font-size: 18px
+    .algorithm_step
+      margin-top: 30px
+      margin-bottom: 30px
+      &:last-child
+        margin-bottom: 0
+  .algorithm_step--first.algorithm_step
+    margin-top: 0
+  .algorithm_step_heading
+    font-size: 18px
+  .algorithm_step--second, .algorithm_step--fourth, .algorithm_step--sixth
+    top: 0
+  .about-coach
+    .button
+      font-size: 12px
+
+  .reviews
+    padding-top: 50px
+    padding-bottom: 14px
+    .h3
+      margin-bottom: 60px
+    .reviews-carousel
+      margin: auto
+      .owl-nav
+        display: none
+      .owl-dots
+        display: block
+        position: relative
+        margin-top: 10px
+        .owl-dot
+          margin-right: 10px
+          top: 0
+          width: 10px
+          height: 10px
+          background-color: #30d143
+          border-radius: 10em
+          transition: all .25s ease
+          &.active
+            transform: scale(1.5)
+      img
+    		max-width: 320px
+    		height: auto
+
+  .motivation
+  	.h3
+  		text-align: center
+
+//Extra small: >0
++media-breakpoint-down(xs)
+  .payment .tariff-carousel .text-wrapper .h4
+   font-size: 36px
+
+  .payment .tariff-carousel
+    width: 80%
+
+  .feedback-form .email, .feedback-form .phone
+    font-size: 16px
+
+  .header_promo-content .h1, .header_promo-content .h2
+    font-size: 17px
+    line-height: 22px
+    text-shadow: 1px 1px 2px #EEE6EF
+
+  .header_promo-content .h1 div, .header_promo-content .h2 div
+    font-size: 24px
+    line-height: 24px
+
+  .header_promo-content
+    padding-top: 24px
+
+  .header_promo-content .header_buttons-wrapper
+    margin-bottom: 15px
+//Extra small: <576px
++media-breakpoint-up(xs)
+//Small: ≤576px
++media-breakpoint-up(sm)
+
+//Medium: ≤768px
++media-breakpoint-up(md)
+
+//Large: ≤992px
++media-breakpoint-up(lg)
+
+//Extra large: ≤1200px
++media-breakpoint-up(xl)
