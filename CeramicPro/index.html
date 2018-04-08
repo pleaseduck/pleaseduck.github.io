@@ -1,0 +1,1405 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#1A1A1A">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#1A1A1A">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#1A1A1A">
+	<script src="https://maps.api.2gis.ru/2.0/loader.js"></script>
+	<!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">-->
+	<link rel="stylesheet" href="libs/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="../style.css">
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+	<div class="portfolio-menu__hamburger">
+		<a class="hamburger  hamburger--emphatic">
+			<span class="hamburger-box">
+				<span class="hamburger-inner"></span>
+			</span>
+		</a>
+	</div>
+	<div class="portfolio-menu  portfolio-hidden">
+			<p class="promo-text">Вы можете переключаться между проектами с помощью меню</p>
+			<ul class="menu-main">
+				<li><a href="#" class="current">CeramicPro</a></li>
+				<li><a href="../KengaDiet/index.html">KengaDiet</a></li>
+				<li><a href="../Smitler/index.html">S&Mitler</a></li>
+				<li><a href="../mishka/index.html">mishka</a></li>
+				<li><a href="../Nerds/index.html">Nerds</a></li>
+				<li><a href="../Barber/index.html">Barbershop</a></li>
+				<li><a href="../upgrade51/index.html">Upgrade51</a></li>
+				<li><a href="#">How-correct</a></li>
+				<li><a href="../project/index.html">Shop-z-look</a></li>
+			</ul>
+			<p class="promo-text">
+			<span>
+			 Адаптивная верстка одной страницы для сайта, посвященного подготовке к ЕГЭ
+			</span>
+		</p>
+		</div>
+		<div class="sidebar ">
+			<div class="logo">
+				<a href="#" class="logo__wrapper"><img src="img/logo1.svg" alt="Ceramic Pro Авторизованный центр">
+					<span class="logo__signature">Авторизованный центр</span></a>
+			</div>
+			<ul class="main-nav" id="main-nav">
+					<li class="main-nav__item  main-nav__item--active" data-menuanchor="section--main-header"><a href="#section--main-header"  class="main-nav__link">Главная</a></li>
+					<li class="main-nav__item"  data-menuanchor="section--performed-work"><a href="#section--performed-work"  class="main-nav__link">Выполненные работы</a></li>
+					<li class="main-nav__item"  data-menuanchor="section--price-list"><a href="#section--price-list"  class="main-nav__link">Цены</a></li>
+					<li class="main-nav__item"  data-menuanchor="section--additional-services"><a href="#section--additional-services"  class="main-nav__link">Дополнительные услуги</a></li>
+					<li class="main-nav__item"  data-menuanchor="section--promotions"><a href="#section--promotions"  class="main-nav__link">Акции</a></li>
+					<li class="main-nav__item"  data-menuanchor="section--questions"><a href="#section--questions"  class="main-nav__link">Вопрос-ответ</a></li>
+					<li class="main-nav__item"  data-menuanchor="section--reviews"><a href="#section--reviews"  class="main-nav__link">Отзывы</a></li>
+					<li class="main-nav__item"  data-menuanchor="section--certificates"><a href="#section--certificates"  class="main-nav__link">Сертификаты</a></li>
+					<li class="main-nav__item"  data-menuanchor="section--about-company"><a href="#section--about-company"  class="main-nav__link">О компании</a></li>
+					<li class="main-nav__item  main-nav__item--mobile-hidden"  data-menuanchor="section--social-networks"><a href="#section--social-networks"  class="main-nav__link">Соц. сети</a></li>
+					<li class="main-nav__item"  data-menuanchor="section--contacts"><a href="#section--contacts"  class="main-nav__link">Контакты</a></li>
+			</ul>
+			<div class="contacts">
+				<a href="#" class="contacts__item  contacts__address"><i class="fas fa-map-marker-alt"></i>г. Иркутск, Ул. Ленина, 1</a>
+				<a href="#" class="contacts__item  contacts__phone"><i class="fas fa-phone"></i> +7 (900) 123-45-67</a>
+				<a data-fancybox data-src="#modal--form" href="javascript:;" class="contacts__item  contacts__button button button--transparent  modal-opener"><i class="fas fa-phone"></i> Заказать звонок</a>
+			</div>
+		</div>
+		<div id="fullpage">
+			<div class="section" data-menuanchor="section--main-header" id="section--main-header1">
+				<div class="main-header" id="main-header">
+					<div class="top-line">
+						<span class="top-line__heading">Главная</span>
+						<span class="top-line__page-counter"><span class="top-line__current-page">1</span>/11</span>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<div class="sidebar--mobile">
+									<a href="#sidebar" class="hamburger  hamburger--emphatic">
+										<span class="hamburger-box">
+											<span class="hamburger-inner"></span>
+										</span>
+									</a>
+									<div class="contacts">
+										<a data-fancybox data-src="#modal--form" href="javascript:;" class="contacts__item  contacts__button button button--transparent  modal-opener"><i class="fas fa-phone"></i> Заказать звонок</a>
+									</div>
+								</div>
+							</div>
+							<div class="main-header__content">
+								<div class="row">
+									<div class="col-md-10 offset-md-2  col-12">
+											<div class="row">
+												<div class="col-md-8  col-12">
+													<div class="heading-wrapper">
+														<h2 class="heading   main-header__heading">Нанесение <span class="heading__accent-text">защитно-керамических составов</span> на кузов автомобиля</h2>
+													</div>
+												</div>
+												<div class="col-md-4 col-12">
+													<div class="legend">
+														<p class="legend__content">
+															Полифонический роман представляет собой прозаический анжамбеман.
+															 Мифопорождающее текстовое устройство однократно.
+															Лицемерная мораль вероятна.Реципиент вразнобой нивелирует возврат к стереотипам. Пастиш разрушаем.
+														</p>
+													</div>
+												</div>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a data-href="#section--performed-work1" class="bottom-line  bottom-line--mobile">
+						<span class="bottom-line__link  bottom-line__link--to-next-block  link  link--to-next-block  link--mobile-hidden">Выполненные работы</span>
+						<span class="bottom-line__link  bottom-line__link--to-next-block  link  link--to-next-block  link--desktop-hidden">Узнать больше</span><i class="fas fa-angle-down"></i>
+					</a>
+				</div>
+			</div>
+
+		<div class="section" data-menuanchor="section--performed-work" id="section--performed-work1">
+				<div class="performed-work" id="performed-work">
+					<div class="overlay"></div>
+				<a data-href="#section--main-header1" class="link  link--to-prev-block">
+					<span class="prev-page">Главная<i class="fas fa-angle-down"></i></span>
+				</a>
+				<div class="top-line">
+					<span class="top-line__heading">Выполненные работы</span>
+					<span class="top-line__page-counter"><span class="top-line__current-page">2</span>/11</span>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-10 offset-md-2">
+									<div class="row">
+											<div class="col-12">
+												<div class="performed-work__content  scroll-wrapper  is-animated">
+													<div class="gallery--performed-work gallery">
+															<div class="gallery__group  gallery__group--performed-work">
+																<div class="gallery__item  modal-opener" data-fancybox data-src="#modal--performed-work" href="javascript:;">
+																			<img src="img/mustang.jpg" alt=""  class="gallery__image">
+																	<p class="gallery__description  ">
+																		<a href="#" class="title">Название кейса</a> Флобер,описывая нервный припадок Эммы Бовари.
+																		<a  class="button  button--see-more"><i class="fas fa-angle-right"></i></a>
+																	</p>
+																</div>
+																<div class="gallery__item  modal-opener" data-fancybox data-src="#modal--performed-work" href="javascript:;">
+																			<img src="img/mustang.jpg" alt=""  class="gallery__image">
+																	<p class="gallery__description  ">
+																		<a href="#" class="title">Название кейса</a> Флобер,описывая нервный припадок Эммы Бовари.
+																		<a  class="button  button--see-more"><i class="fas fa-angle-right"></i></a>
+																	</p>
+																</div>
+																<div class="gallery__item  modal-opener  gallery__item--mobile-hidden" data-fancybox data-src="#modal--performed-work" href="javascript:;">
+																			<img src="img/mustang.jpg" alt=""  class="gallery__image">
+																	<p class="gallery__description  ">
+																		<a href="#" class="title">Название кейса</a> Флобер,описывая нервный припадок Эммы Бовари.
+																		<a  class="button  button--see-more"><i class="fas fa-angle-right"></i></a>
+																	</p>
+																</div>
+																<div class="gallery__item  modal-opener  gallery__item--mobile-hidden" data-fancybox data-src="#modal--performed-work" href="javascript:;">
+																			<img src="img/mustang.jpg" alt=""  class="gallery__image">
+																	<p class="gallery__description  ">
+																		<a href="#" class="title">Название кейса</a> Флобер,описывая нервный припадок Эммы Бовари.
+																		<a  class="button  button--see-more"><i class="fas fa-angle-right"></i></a>
+																	</p>
+																</div>
+																<div class="gallery__item  modal-opener  gallery__item--mobile-hidden" data-fancybox data-src="#modal--performed-work" href="javascript:;">
+																			<img src="img/mustang.jpg" alt=""  class="gallery__image">
+																	<p class="gallery__description  ">
+																		<a href="#" class="title">Название кейса</a> Флобер,описывая нервный припадок Эммы Бовари.
+																		<a  class="button  button--see-more"><i class="fas fa-angle-right"></i></a>
+																	</p>
+																</div>
+																<div class="gallery__item  modal-opener  gallery__item--mobile-hidden" data-fancybox data-src="#modal--performed-work" href="javascript:;">
+																			<img src="img/mustang.jpg" alt=""  class="gallery__image">
+																	<p class="gallery__description  ">
+																		<a href="#" class="title">Название кейса</a> Флобер,описывая нервный припадок Эммы Бовари.
+																		<a  class="button  button--see-more"><i class="fas fa-angle-right"></i></a>
+																	</p>
+																</div>
+																</div>
+																<div class="gallery__group  gallery__group--performed-work">
+																	<div class="gallery__item  modal-opener  gallery__item--mobile-hidden" data-fancybox data-src="#modal--performed-work" href="javascript:;">
+																				<img src="img/mustang.jpg" alt=""  class="gallery__image">
+																		<p class="gallery__description  ">
+																			<a href="#" class="title">Название кейса</a> Флобер,описывая нервный припадок Эммы Бовари.
+																			<a  class="button  button--see-more"><i class="fas fa-angle-right"></i></a>
+																		</p>
+																	</div>
+																	<div class="gallery__item  modal-opener  gallery__item--mobile-hidden" data-fancybox data-src="#modal--performed-work" href="javascript:;">
+																				<img src="img/mustang.jpg" alt=""  class="gallery__image">
+																		<p class="gallery__description  ">
+																			<a href="#" class="title">Название кейса</a> Флобер,описывая нервный припадок Эммы Бовари.
+																			<a  class="button  button--see-more"><i class="fas fa-angle-right"></i></a>
+																		</p>
+																	</div>
+																	<div class="gallery__item  modal-opener  gallery__item--mobile-hidden" data-fancybox data-src="#modal--performed-work" href="javascript:;">
+																				<img src="img/mustang.jpg" alt=""  class="gallery__image">
+																		<p class="gallery__description  ">
+																			<a href="#" class="title">Название кейса</a> Флобер,описывая нервный припадок Эммы Бовари.
+																			<a  class="button  button--see-more"><i class="fas fa-angle-right"></i></a>
+																		</p>
+																	</div>
+																	<div class="gallery__item  modal-opener  gallery__item--mobile-hidden" data-fancybox data-src="#modal--performed-work" href="javascript:;">
+																				<img src="img/mustang.jpg" alt=""  class="gallery__image">
+																		<p class="gallery__description  ">
+																			<a href="#" class="title">Название кейса</a> Флобер,описывая нервный припадок Эммы Бовари.
+																			<a  class="button  button--see-more"><i class="fas fa-angle-right"></i></a>
+																		</p>
+																	</div>
+																	<div class="gallery__item  modal-opener  gallery__item--mobile-hidden" data-fancybox data-src="#modal--performed-work" href="javascript:;">
+																				<img src="img/mustang.jpg" alt=""  class="gallery__image">
+																		<p class="gallery__description  ">
+																			<a href="#" class="title">Название кейса</a> Флобер,описывая нервный припадок Эммы Бовари.
+																			<a  class="button  button--see-more"><i class="fas fa-angle-right"></i></a>
+																		</p>
+																	</div>
+																	<div class="gallery__item  modal-opener  gallery__item--mobile-hidden" data-fancybox data-src="#modal--performed-work" href="javascript:;">
+																				<img src="img/mustang.jpg" alt=""  class="gallery__image">
+																		<p class="gallery__description  ">
+																			<a href="#" class="title">Название кейса</a> Флобер,описывая нервный припадок Эммы Бовари.
+																			<a  class="button  button--see-more"><i class="fas fa-angle-right"></i></a>
+																		</p>
+																	</div>
+																	</div>
+														</div>
+												</div>
+									</div>
+								</div>
+						</div>
+						<a href="#" class="button--watch-more  button--performed-work"> Ещё работы</a>
+					</div>
+				</div>
+				<a data-href="#section--price-list1" class="bottom-line">
+					<span class="bottom-line__link  bottom-line__link--to-next-block  link  link--to-next-block">Цены<i class="fas fa-angle-down"></i></span>
+				</a>
+			</div>
+		</div>
+
+
+				<div class="section"  data-menuanchor="section--price-list" id="section--price-list1">
+					<div class="price-list" id="price-list">
+						<a data-href="#section--performed-work1" class="link  link--to-prev-block">
+							<span class="prev-page">Выполненные работы<i class="fas fa-angle-down"></i></span>
+						</a>
+						<div class="top-line">
+							<span class="top-line__heading">Цены</span>
+							<span class="top-line__page-counter"><span class="top-line__current-page">3</span>/11</span>
+						</div>
+						<div class="container">
+							<div class="row">
+								<div class="col-md-10 offset-md-2">
+														<div class="row">
+																<div class="col-12  d-flex justify-content-center  align-items-center  flex-column">
+																			<div class="price-list__carousel  owl-carousel  is-animated">
+																				<div class="carousel__item  carousel__item--price-list">
+																					<div class="tariff">
+																						<img src="img/icons/money-box.svg" alt="Пакет эконом"  class="carousel__image  tariff__image">
+																						<span class="tariff__heading">Пакет «Эконом»</span>
+																						<span class="tariff__service">Нанесение покрытия 9Н</span>
+																						<span class="tariff__service">Полировка автомобиля</span>
+																						<span class="tariff__service">Покрытие доп.раствором</span>
+																						<span class="tariff__service">Наименование услуги 2</span>
+																						<span class="tariff__service">Наименование услуги 3</span>
+																						<div class="tariff__price"><span>32 000 р.</span><a data-fancybox data-src="#modal--form" href="javascript:;" class="button  button--transparent  modal-opener">Заказать</a></div>
+																					</div>
+																				</div>
+																				<div class="carousel__item  carousel__item--price-list">
+																					<div class="tariff">
+																						<img src="img/icons/money-box.svg" alt="Пакет эконом"  class="carousel__image  tariff__image">
+																						<span class="tariff__heading">Пакет «Эконом»</span>
+																						<span class="tariff__service">Нанесение покрытия 9Н</span>
+																						<span class="tariff__service">Полировка автомобиля</span>
+																						<span class="tariff__service">Покрытие доп.раствором</span>
+																						<span class="tariff__service">Наименование услуги 2</span>
+																						<span class="tariff__service">Наименование услуги 3</span>
+																						<div class="tariff__price"><span>32 000 р.</span><a data-fancybox data-src="#modal--form" href="javascript:;" class="button  button--transparent  modal-opener">Заказать</a></div>
+																					</div>
+																				</div>
+																				<div class="carousel__item  carousel__item--price-list">
+																					<div class="tariff">
+																						<img src="img/icons/money-box.svg" alt="Пакет эконом"  class="carousel__image  tariff__image">
+																						<span class="tariff__heading">Пакет «Эконом»</span>
+																						<span class="tariff__service">Нанесение покрытия 9Н</span>
+																						<span class="tariff__service">Полировка автомобиля</span>
+																						<span class="tariff__service">Покрытие доп.раствором</span>
+																						<span class="tariff__service">Наименование услуги 2</span>
+																						<span class="tariff__service">Наименование услуги 3</span>
+																						<div class="tariff__price"><span>32 000 р.</span><a data-fancybox data-src="#modal--form" href="javascript:;" class="button  button--transparent  modal-opener">Заказать</a></div>
+																					</div>
+																				</div>
+																				<div class="carousel__item  carousel__item--price-list">
+																					<div class="tariff">
+																						<img src="img/icons/money-box.svg" alt="Пакет эконом"  class="carousel__image  tariff__image">
+																						<span class="tariff__heading">Пакет «Эконом»</span>
+																						<span class="tariff__service">Нанесение покрытия 9Н</span>
+																						<span class="tariff__service">Полировка автомобиля</span>
+																						<span class="tariff__service">Покрытие доп.раствором</span>
+																						<span class="tariff__service">Наименование услуги 2</span>
+																						<span class="tariff__service">Наименование услуги 3</span>
+																						<div class="tariff__price"><span>32 000 р.</span><a data-fancybox data-src="#modal--form" href="javascript:;" class="button  button--transparent  modal-opener">Заказать</a></div>
+																					</div>
+																				</div>
+																				<div class="carousel__item  carousel__item--price-list">
+																					<div class="tariff">
+																						<img src="img/icons/money-box.svg" alt="Пакет эконом"  class="carousel__image  tariff__image">
+																						<span class="tariff__heading">Пакет «Эконом»</span>
+																						<span class="tariff__service">Нанесение покрытия 9Н</span>
+																						<span class="tariff__service">Полировка автомобиля</span>
+																						<span class="tariff__service">Покрытие доп.раствором</span>
+																						<span class="tariff__service">Наименование услуги 2</span>
+																						<span class="tariff__service">Наименование услуги 3</span>
+																						<div class="tariff__price"><span>32 000 р.</span><a data-fancybox data-src="#modal--form" href="javascript:;" class="button  button--transparent  modal-opener">Заказать</a></div>
+																					</div>
+																				</div>
+																				<div class="carousel__item  carousel__item--price-list">
+																					<div class="tariff">
+																						<img src="img/icons/money-box.svg" alt="Пакет эконом"  class="carousel__image  tariff__image">
+																						<span class="tariff__heading">Пакет «Эконом»</span>
+																						<span class="tariff__service">Нанесение покрытия 9Н</span>
+																						<span class="tariff__service">Полировка автомобиля</span>
+																						<span class="tariff__service">Покрытие доп.раствором</span>
+																						<span class="tariff__service">Наименование услуги 2</span>
+																						<span class="tariff__service">Наименование услуги 3</span>
+																						<div class="tariff__price"><span>32 000 р.</span><a data-fancybox data-src="#modal--form" href="javascript:;" class="button  button--transparent  modal-opener">Заказать</a></div>
+																					</div>
+																				</div>
+																			</div>
+																</div>
+											</div>
+
+								</div>
+							</div>
+						</div>
+						<a data-href="#section--additional-services1" class="bottom-line">
+							<span class="bottom-line__link  bottom-line__link--to-next-block  link  link--to-next-block">Дополнительные услуги<i class="fas fa-angle-down"></i></span>
+						</a>
+					</div>
+				</div>
+
+					<div class="section" data-menuanchor="section--additional-services" id="section--additional-services1">
+						<div class="additional-services" id="additional-services">
+							<div class="overlay"></div>
+							<a data-href="#section--price-list1" class="link  link--to-prev-block">
+								<span class="prev-page">Цены<i class="fas fa-angle-down"></i></span>
+							</a>
+							<div class="top-line">
+								<span class="top-line__heading">Дополнительные услуги</span>
+								<span class="top-line__page-counter"><span class="top-line__current-page">4</span>/11</span>
+							</div>
+							<div class="container">
+								<div class="row">
+									<div class="col-md-10 offset-md-2">
+												<div class="row">
+													<div class="col-12">
+																<div class="additional-services__content  scroll-wrapper  is-animated">
+																	<div class="gallery--additional-services  gallery">
+																		<div class="gallery__group">
+																			<div class="gallery__item ">
+																					<div class="additional-service">
+																						<div class="row">
+																							<div class="col-6">
+																								<img src="img/icons/service1.svg" alt="Наименование услуги"  class="additional-service__image">
+																							</div>
+																							<div class="col-md-6 col-12 d-flex  justify-content-end  order-md-0  order-3">
+																								<div class="button-wrapper">
+																									<a data-fancybox data-src="#modal--form" href="javascript:;" class="button  additional-service__button  modal-opener">Оставить заявку</a>
+																								</div>
+																							</div>
+																							<div class="col-12">
+																								<p class="  gallery__description">
+																								 <a data-fancybox data-src="#modal--form" href="javascript:;" class="title  modal-opener">Наименование услуги</a> Описание предоставляемой дополнительной услуги, где можно описать суть процедуры в 2-3 предложениях.
+																								</p>
+																							</div>
+																						</div>
+																					</div>
+																			</div>
+																			<div class="gallery__item  ">
+																					<div class="additional-service">
+																						<div class="row">
+																							<div class="col-6">
+																								<img src="img/icons/service1.svg" alt="Наименование услуги"  class="additional-service__image">
+																							</div>
+																							<div class="col-md-6 col-12 d-flex  justify-content-end  order-md-0  order-3">
+																								<div class="button-wrapper">
+																									<a data-fancybox data-src="#modal--form" href="javascript:;" class="button  additional-service__button  modal-opener">Оставить заявку</a>
+																								</div>
+																							</div>
+																							<div class="col-12">
+																								<p class="  gallery__description">
+																								 <a data-fancybox data-src="#modal--form" href="javascript:;" class="title">Наименование услуги</a> Описание предоставляемой дополнительной услуги, где можно описать суть процедуры в 2-3 предложениях.
+																								</p>
+																							</div>
+																						</div>
+																					</div>
+																			</div>
+																			<div class="gallery__item  gallery__item--mobile-hidden">
+																					<div class="additional-service">
+																						<div class="row">
+																							<div class="col-6">
+																								<img src="img/icons/service1.svg" alt="Наименование услуги"  class="additional-service__image">
+																							</div>
+																							<div class="col-md-6 col-12 d-flex  justify-content-end  order-md-0  order-3">
+																								<div class="button-wrapper">
+																									<a data-fancybox data-src="#modal--form" href="javascript:;" class="button  additional-service__button  modal-opener">Оставить заявку</a>
+																								</div>
+																							</div>
+																							<div class="col-12">
+																								<p class="  gallery__description">
+																								 <a data-fancybox data-src="#modal--form" href="javascript:;" class="title">Наименование услуги</a> Описание предоставляемой дополнительной услуги, где можно описать суть процедуры в 2-3 предложениях.
+																								</p>
+																							</div>
+																						</div>
+																					</div>
+																			</div>
+																			<div class="gallery__item  gallery__item--mobile-hidden">
+																					<div class="additional-service">
+																						<div class="row">
+																							<div class="col-6">
+																								<img src="img/icons/service1.svg" alt="Наименование услуги"  class="additional-service__image">
+																							</div>
+																							<div class="col-md-6 col-12 d-flex  justify-content-end  order-md-0  order-3">
+																								<div class="button-wrapper">
+																									<a data-fancybox data-src="#modal--form" href="javascript:;" class="button  additional-service__button  modal-opener">Оставить заявку</a>
+																								</div>
+																							</div>
+																							<div class="col-12">
+																								<p class="  gallery__description">
+																								 <a data-fancybox data-src="#modal--form" href="javascript:;" class="title">Наименование услуги</a> Описание предоставляемой дополнительной услуги, где можно описать суть процедуры в 2-3 предложениях.
+																								</p>
+																							</div>
+																						</div>
+																					</div>
+																			</div>
+																			<div class="gallery__item  gallery__item--mobile-hidden">
+																					<div class="additional-service">
+																						<div class="row">
+																							<div class="col-6">
+																								<img src="img/icons/service1.svg" alt="Наименование услуги"  class="additional-service__image">
+																							</div>
+																							<div class="col-md-6 col-12 d-flex  justify-content-end  order-md-0  order-3">
+																								<div class="button-wrapper">
+																									<a data-fancybox data-src="#modal--form" href="javascript:;" class="button  additional-service__button  modal-opener">Оставить заявку</a>
+																								</div>
+																							</div>
+																							<div class="col-12">
+																								<p class="  gallery__description">
+																								 <a data-fancybox data-src="#modal--form" href="javascript:;" class="title  modal-opener">Наименование услуги</a> Описание предоставляемой дополнительной услуги, где можно описать суть процедуры в 2-3 предложениях.
+																								</p>
+																							</div>
+																						</div>
+																					</div>
+																			</div>
+																		</div>
+																		<div class="gallery__group gallery__item--mobile-hidden ">
+																			<div class="gallery__item  ">
+																					<div class="additional-service">
+																						<div class="row">
+																							<div class="col-6">
+																								<img src="img/icons/service1.svg" alt="Наименование услуги"  class="additional-service__image">
+																							</div>
+																							<div class="col-md-6 col-12 d-flex  justify-content-end  order-md-0  order-3">
+																								<div class="button-wrapper">
+																									<a data-fancybox data-src="#modal--form" href="javascript:;" class="button  additional-service__button  modal-opener">Оставить заявку</a>
+																								</div>
+																							</div>
+																							<div class="col-12">
+																								<p class="  gallery__description">
+																								 <a data-fancybox data-src="#modal--form" href="javascript:;" class="title">Наименование услуги</a> Описание предоставляемой дополнительной услуги, где можно описать суть процедуры в 2-3 предложениях.
+																								</p>
+																							</div>
+																						</div>
+																					</div>
+																			</div>
+																			<div class="gallery__item  gallery__item--mobile-hidden">
+																					<div class="additional-service">
+																						<div class="row">
+																							<div class="col-6">
+																								<img src="img/icons/service1.svg" alt="Наименование услуги"  class="additional-service__image">
+																							</div>
+																							<div class="col-md-6 col-12 d-flex  justify-content-end  order-md-0  order-3">
+																								<div class="button-wrapper">
+																									<a data-fancybox data-src="#modal--form" href="javascript:;" class="button  additional-service__button  modal-opener">Оставить заявку</a>
+																								</div>
+																							</div>
+																							<div class="col-12">
+																								<p class="  gallery__description">
+																								 <a data-fancybox data-src="#modal--form" href="javascript:;" class="title">Наименование услуги</a> Описание предоставляемой дополнительной услуги, где можно описать суть процедуры в 2-3 предложениях.
+																								</p>
+																							</div>
+																						</div>
+																					</div>
+																			</div>
+																			<div class="gallery__item     gallery__item--mobile-hidden">
+																					<div class="additional-service">
+																						<div class="row">
+																							<div class="col-6">
+																								<img src="img/icons/service1.svg" alt="Наименование услуги"  class="additional-service__image">
+																							</div>
+																							<div class="col-md-6 col-12 d-flex  justify-content-end  order-md-0  order-3">
+																								<div class="button-wrapper">
+																									<a data-fancybox data-src="#modal--form" href="javascript:;" class="button  additional-service__button  modal-opener">Оставить заявку</a>
+																								</div>
+																							</div>
+																							<div class="col-12">
+																								<p class="  gallery__description">
+																								 <a data-fancybox data-src="#modal--form" href="javascript:;" class="title  modal-opener">Наименование услуги</a> Описание предоставляемой дополнительной услуги, где можно описать суть процедуры в 2-3 предложениях.
+																								</p>
+																							</div>
+																						</div>
+																					</div>
+																			</div>
+																			<div class="gallery__item     gallery__item--mobile-hidden">
+																					<div class="additional-service">
+																						<div class="row">
+																							<div class="col-6">
+																								<img src="img/icons/service1.svg" alt="Наименование услуги"  class="additional-service__image">
+																							</div>
+																							<div class="col-md-6 col-12 d-flex  justify-content-end  order-md-0  order-3">
+																								<div class="button-wrapper">
+																									<a data-fancybox data-src="#modal--form" href="javascript:;" class="button  additional-service__button  modal-opener">Оставить заявку</a>
+																								</div>
+																							</div>
+																							<div class="col-12">
+																								<p class="  gallery__description">
+																								 <a data-fancybox data-src="#modal--form" href="javascript:;" class="title  modal-opener">Наименование услуги</a> Описание предоставляемой дополнительной услуги, где можно описать суть процедуры в 2-3 предложениях.
+																								</p>
+																							</div>
+																						</div>
+																					</div>
+																			</div>
+																			<div class="gallery__item     gallery__item--mobile-hidden">
+																					<div class="additional-service">
+																						<div class="row">
+																							<div class="col-6">
+																								<img src="img/icons/service1.svg" alt="Наименование услуги"  class="additional-service__image">
+																							</div>
+																							<div class="col-md-6 col-12 d-flex  justify-content-end  order-md-0  order-3">
+																								<div class="button-wrapper">
+																									<a data-fancybox data-src="#modal--form" href="javascript:;" class="button  additional-service__button  modal-opener">Оставить заявку</a>
+																								</div>
+																							</div>
+																							<div class="col-12">
+																								<p class="  gallery__description">
+																								 <a data-fancybox data-src="#modal--form" href="javascript:;" class="title  modal-opener">Наименование услуги</a> Описание предоставляемой дополнительной услуги, где можно описать суть процедуры в 2-3 предложениях.
+																								</p>
+																							</div>
+																						</div>
+																					</div>
+																			</div>
+																		</div>
+																		<div class="gallery__group  ">
+																			<div class="gallery__item  gallery__item--mobile-hidden">
+																					<div class="additional-service">
+																						<div class="row">
+																							<div class="col-6">
+																								<img src="img/icons/service1.svg" alt="Наименование услуги"  class="additional-service__image">
+																							</div>
+																							<div class="col-md-6 col-12 d-flex  justify-content-end  order-md-0  order-3">
+																								<div class="button-wrapper">
+																									<a data-fancybox data-src="#modal--form" href="javascript:;" class="button  additional-service__button  modal-opener">Оставить заявку</a>
+																								</div>
+																							</div>
+																							<div class="col-12">
+																								<p class="  gallery__description">
+																								 <a data-fancybox data-src="#modal--form" href="javascript:;" class="title">Наименование услуги</a> Описание предоставляемой дополнительной услуги, где можно описать суть процедуры в 2-3 предложениях.
+																								</p>
+																							</div>
+																						</div>
+																					</div>
+																			</div>
+																			<div class="gallery__item  gallery__item--mobile-hidden">
+																					<div class="additional-service">
+																						<div class="row">
+																							<div class="col-6">
+																								<img src="img/icons/service1.svg" alt="Наименование услуги"  class="additional-service__image">
+																							</div>
+																							<div class="col-md-6 col-12 d-flex  justify-content-end  order-md-0  order-3">
+																								<div class="button-wrapper">
+																									<a data-fancybox data-src="#modal--form" href="javascript:;" class="button  additional-service__button  modal-opener">Оставить заявку</a>
+																								</div>
+																							</div>
+																							<div class="col-12">
+																								<p class="  gallery__description">
+																								 <a data-fancybox data-src="#modal--form" href="javascript:;" class="title">Наименование услуги</a> Описание предоставляемой дополнительной услуги, где можно описать суть процедуры в 2-3 предложениях.
+																								</p>
+																							</div>
+																						</div>
+																					</div>
+																			</div>
+																			<div class="gallery__item     gallery__item--mobile-hidden">
+																					<div class="additional-service">
+																						<div class="row">
+																							<div class="col-6">
+																								<img src="img/icons/service1.svg" alt="Наименование услуги"  class="additional-service__image">
+																							</div>
+																							<div class="col-md-6 col-12 d-flex  justify-content-end  order-md-0  order-3">
+																								<div class="button-wrapper">
+																									<a data-fancybox data-src="#modal--form" href="javascript:;" class="button  additional-service__button  modal-opener">Оставить заявку</a>
+																								</div>
+																							</div>
+																							<div class="col-12">
+																								<p class="  gallery__description">
+																								 <a data-fancybox data-src="#modal--form" href="javascript:;" class="title  modal-opener">Наименование услуги</a> Описание предоставляемой дополнительной услуги, где можно описать суть процедуры в 2-3 предложениях.
+																								</p>
+																							</div>
+																						</div>
+																					</div>
+																			</div>
+																			<div class="gallery__item     gallery__item--mobile-hidden">
+																					<div class="additional-service">
+																						<div class="row">
+																							<div class="col-6">
+																								<img src="img/icons/service1.svg" alt="Наименование услуги"  class="additional-service__image">
+																							</div>
+																							<div class="col-md-6 col-12 d-flex  justify-content-end  order-md-0  order-3">
+																								<div class="button-wrapper">
+																									<a data-fancybox data-src="#modal--form" href="javascript:;" class="button  additional-service__button  modal-opener">Оставить заявку</a>
+																								</div>
+																							</div>
+																							<div class="col-12">
+																								<p class="  gallery__description">
+																								 <a data-fancybox data-src="#modal--form" href="javascript:;" class="title">Наименование услуги</a> Описание предоставляемой дополнительной услуги, где можно описать суть процедуры в 2-3 предложениях.
+																								</p>
+																							</div>
+																						</div>
+																					</div>
+																			</div>
+																			<div class="gallery__item     gallery__item--mobile-hidden">
+																					<div class="additional-service">
+																						<div class="row">
+																							<div class="col-6">
+																								<img src="img/icons/service1.svg" alt="Наименование услуги"  class="additional-service__image">
+																							</div>
+																							<div class="col-md-6 col-12 d-flex  justify-content-end  order-md-0  order-3">
+																								<div class="button-wrapper">
+																									<a data-fancybox data-src="#modal--form" href="javascript:;" class="button  additional-service__button  modal-opener">Оставить заявку</a>
+																								</div>
+																							</div>
+																							<div class="col-12">
+																								<p class="  gallery__description">
+																								 <a data-fancybox data-src="#modal--form" href="javascript:;" class="title  modal-opener">Наименование услуги</a> Описание предоставляемой дополнительной услуги, где можно описать суть процедуры в 2-3 предложениях.
+																								</p>
+																							</div>
+																						</div>
+																					</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+													</div>
+
+													<a href="#" class="button--watch-more  button--additional-services"> Ещё доп.услуги</a>
+												</div>
+									</div>
+								</div>
+							</div>
+							<a data-href="#section--promotions1" class="bottom-line">
+								<span class="bottom-line__link  bottom-line__link--to-next-block  link  link--to-next-block">Акции<i class="fas fa-angle-down"></i></span>
+							</a>
+									</div>
+					</div>
+
+			<div class="section"  data-menuanchor="section--promotions" id="section--promotions1">
+				<div class="promotions" id="promotions">
+					<a data-href="#section--additional-services1" class="link  link--to-prev-block">
+						<span class="prev-page">Дополнительные услуги<i class="fas fa-angle-down"></i></span>
+					</a>
+					<div class="top-line">
+						<span class="top-line__heading">Акции</span>
+						<span class="top-line__page-counter"><span class="top-line__current-page">5</span>/11</span>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-10 offset-md-2">
+										<div class="row">
+											<div class="col-12  d-flex  justify-content-center">
+													<div class="owl-carousel  promotions__carousel  is-animated">
+														<div class="carousel__item">
+															<div class="promotion">
+																<h2 class="promotion__heading  heading">
+																	Скидка <span class="heading__accent-text">15%</span> на белые автомобили
+																</h2>
+																<p class="promotion__content">Полифонический роман представляет собой прозаический анжамбеман.
+																	 Мифопорождающее текстовое устройство однократно.
+																	 Лицемерная мораль вероятна. Реципиент вразнобой нивелирует возврат к стереотипам.
+																</p>
+																<a data-fancybox data-src="#modal--form" href="javascript:;" class="button modal-opener">Оставить заявку</a>
+															</div>
+														</div>
+														<div class="carousel__item">
+															<div class="promotion">
+																<h2 class="heading  promotion__heading">
+																	Скидка <span class="heading__accent-text">15%</span> на белые автомобили
+																</h2>
+																<p class="promotion__content">Полифонический роман представляет собой прозаический анжамбеман.
+																	 Мифопорождающее текстовое устройство однократно.
+																	 Лицемерная мораль вероятна. Реципиент вразнобой нивелирует возврат к стереотипам.
+																</p>
+																<a data-fancybox data-src="#modal--form" href="javascript:;" class="button  modal-opener">Оставить заявку</a>
+															</div>
+														</div>
+														<div class="carousel__item">
+															<div class="promotion">
+																<h2 class="heading  promotion__heading">
+																	Скидка <span class="heading__accent-text">15%</span> на белые автомобили
+																</h2>
+																<p class="promotion__content">Полифонический роман представляет собой прозаический анжамбеман.
+																	 Мифопорождающее текстовое устройство однократно.
+																	 Лицемерная мораль вероятна. Реципиент вразнобой нивелирует возврат к стереотипам.
+																</p>
+																<a data-fancybox data-src="#modal--form" href="javascript:;" class="button  modal-opener">Оставить заявку</a>
+															</div>
+														</div>
+														<div class="carousel__item">
+															<div class="promotion">
+																<h2 class="heading  promotion__heading">
+																	Скидка <span class="heading__accent-text">15%</span> на белые автомобили
+																</h2>
+																<p class="promotion__content">Полифонический роман представляет собой прозаический анжамбеман.
+																	 Мифопорождающее текстовое устройство однократно.
+																	 Лицемерная мораль вероятна. Реципиент вразнобой нивелирует возврат к стереотипам.
+																</p>
+																<a data-fancybox data-src="#modal--form" href="javascript:;" class="button  modal-opener">Оставить заявку</a>
+															</div>
+														</div>
+													</div>
+											</div>
+										</div>
+								</div>
+							</div>
+						</div>
+						<a data-href="#section--questions1" class="bottom-line">
+							<span class="bottom-line__link  bottom-line__link--to-next-block  link  link--to-next-block">Вопрос-ответ<i class="fas fa-angle-down"></i></span>
+						</a>
+					</div>
+			</div>
+
+				<div class="section" data-menuanchor="section--questions" id="section--questions1">
+					<div class="questions" id="questions">
+						<div class="overlay"></div>
+						<a data-href="#section--promotions1" class="link  link--to-prev-block">
+							<span class="prev-page">Акции<i class="fas fa-angle-down"></i></span>
+						</a>
+						<div class="top-line">
+							<span class="top-line__heading">Вопрос-ответ</span>
+							<span class="top-line__page-counter"><span class="top-line__current-page">6</span>/11</span>
+						</div>
+						<div class="container">
+							<div class="row">
+								<div class="col-md-10 offset-md-2">
+											<div class="row">
+												<div class="col-12">
+															<div class="questions__content  scroll-wrapper  is-animated">
+																<div class="gallery--questions  gallery">
+																	<div class="gallery__group  ">
+																		<div class="gallery__item  ">
+																				<div class="question">
+																					<div class="row">
+																						<div class="col-12">
+																							<p class="question__item">
+																							 <span data-fancybox data-src="#modal--question" href="javascript:;" class="question__title  modal-opener">Воздействие экранирует неорганический атом?</span>
+																							  Впервые газовые гидраты были описаны Гемфри Дэви в 1810 году, однако брожение вступает выход целевого продукта.
+																								<a data-fancybox data-src="#modal--question" href="javascript:;" class="link link--more-information  modal-opener" data-counter="1">Читать далее</a>
+																							</p>
+																						</div>
+																					</div>
+																				</div>
+																		</div>
+																		<div class="gallery__item  ">
+																				<div class="question">
+																					<div class="row">
+																						<div class="col-12">
+																							<p class="question__item">
+																							 <span data-fancybox data-src="#modal--question" href="javascript:;" class="question__title  modal-opener">Воздействие экранирует неорганический атом?</span>
+																							  Впервые газовые гидраты были описаны Гемфри Дэви в 1810 году, однако брожение вступает выход целевого продукта.
+																								<a data-fancybox data-src="#modal--question" href="javascript:;" class="link link--more-information  modal-opener">Читать далее</a>
+																							</p>
+																						</div>
+																					</div>
+																				</div>
+																		</div>
+																		<div class="gallery__item  ">
+																				<div class="question">
+																					<div class="row">
+																						<div class="col-12">
+																							<p class="question__item">
+																							 <span data-fancybox data-src="#modal--question" href="javascript:;" class="question__title  modal-opener">Воздействие экранирует неорганический атом?</span>
+																							  Впервые газовые гидраты были описаны Гемфри Дэви в 1810 году, однако брожение вступает выход целевого продукта.
+																								<a data-fancybox data-src="#modal--question" href="javascript:;" class="link link--more-information  modal-opener">Читать далее</a>
+																							</p>
+																						</div>
+																					</div>
+																				</div>
+																		</div>
+																	</div>
+																	<div class="gallery__group  ">
+																		<div class="gallery__item    gallery__item--mobile-hidden">
+																				<div class="question">
+																					<div class="row">
+																						<div class="col-12">
+																							<p class="question__item">
+																							 <span data-fancybox data-src="#modal--question" href="javascript:;" class="question__title  modal-opener">Воздействие экранирует неорганический атом?</span>
+																							  Впервые газовые гидраты были описаны Гемфри Дэви в 1810 году, однако брожение вступает выход целевого продукта.
+																								<a data-fancybox data-src="#modal--question" href="javascript:;" class="link link--more-information  modal-opener">Читать далее</a>
+																							</p>
+																						</div>
+																					</div>
+																				</div>
+																		</div>
+																		<div class="gallery__item    gallery__item--mobile-hidden">
+																				<div class="question">
+																					<div class="row">
+																						<div class="col-12">
+																							<p class="question__item">
+																							 <span data-fancybox data-src="#modal--question" href="javascript:;" class="question__title  modal-opener">Воздействие экранирует неорганический атом?</span>
+																							  Впервые газовые гидраты были описаны Гемфри Дэви в 1810 году, однако брожение вступает выход целевого продукта.
+																								<a data-fancybox data-src="#modal--question" href="javascript:;" class="link link--more-information  modal-opener">Читать далее</a>
+																							</p>
+																						</div>
+																					</div>
+																				</div>
+																		</div>
+																		<div class="gallery__item    gallery__item--mobile-hidden">
+																				<div class="question">
+																					<div class="row">
+																						<div class="col-12">
+																							<p class="question__item">
+																							 <span data-fancybox data-src="#modal--question" href="javascript:;" class="question__title  modal-opener">Воздействие экранирует неорганический атом?</span>
+																							  Впервые газовые гидраты были описаны Гемфри Дэви в 1810 году, однако брожение вступает выход целевого продукта.
+																								<a data-fancybox data-src="#modal--question" href="javascript:;" class="link link--more-information  modal-opener">Читать далее</a>
+																							</p>
+																						</div>
+																					</div>
+																				</div>
+																		</div>
+																	</div>
+																	<div class="gallery__group  ">
+																		<div class="gallery__item    gallery__item--mobile-hidden">
+																				<div class="question">
+																					<div class="row">
+																						<div class="col-12">
+																							<p class="question__item">
+																							 <span data-fancybox data-src="#modal--question" href="javascript:;" class="question__title  modal-opener">Воздействие экранирует неорганический атом?</span>
+																							  Впервые газовые гидраты были описаны Гемфри Дэви в 1810 году, однако брожение вступает выход целевого продукта.
+																								<a data-fancybox data-src="#modal--question" href="javascript:;" class="link link--more-information  modal-opener">Читать далее</a>
+																							</p>
+																						</div>
+																					</div>
+																				</div>
+																		</div>
+																		<div class="gallery__item    gallery__item--mobile-hidden">
+																				<div class="question">
+																					<div class="row">
+																						<div class="col-12">
+																							<p class="question__item">
+																							 <span data-fancybox data-src="#modal--question" href="javascript:;" class="question__title  modal-opener">Воздействие экранирует неорганический атом?</span>
+																							  Впервые газовые гидраты были описаны Гемфри Дэви в 1810 году, однако брожение вступает выход целевого продукта.
+																								<a data-fancybox data-src="#modal--question" href="javascript:;" class="link link--more-information  modal-opener">Читать далее</a>
+																							</p>
+																						</div>
+																					</div>
+																				</div>
+																		</div>
+																		<div class="gallery__item    gallery__item--mobile-hidden">
+																				<div class="question">
+																					<div class="row">
+																						<div class="col-12">
+																							<p class="question__item">
+																							 <span data-fancybox data-src="#modal--question" href="javascript:;" class="question__title  modal-opener">Воздействие экранирует неорганический атом?</span>
+																							  Впервые газовые гидраты были описаны Гемфри Дэви в 1810 году, однако брожение вступает выход целевого продукта.
+																								<a data-fancybox data-src="#modal--question" href="javascript:;" class="link link--more-information  modal-opener">Читать далее</a>
+																							</p>
+																						</div>
+																					</div>
+																				</div>
+																		</div>
+																	</div>
+																	<div class="gallery__group  ">
+																		<div class="gallery__item    gallery__item--mobile-hidden">
+																				<div class="question">
+																					<div class="row">
+																						<div class="col-12">
+																							<p class="question__item">
+																							 <span data-fancybox data-src="#modal--question" href="javascript:;" class="question__title  modal-opener">Воздействие экранирует неорганический атом?</span>
+																							  Впервые газовые гидраты были описаны Гемфри Дэви в 1810 году, однако брожение вступает выход целевого продукта.
+																								<a data-fancybox data-src="#modal--question" href="javascript:;" class="link link--more-information  modal-opener">Читать далее</a>
+																							</p>
+																						</div>
+																					</div>
+																				</div>
+																		</div>
+																		<div class="gallery__item    gallery__item--mobile-hidden">
+																				<div class="question">
+																					<div class="row">
+																						<div class="col-12">
+																							<p class="question__item">
+																							 <span data-fancybox data-src="#modal--question" href="javascript:;" class="question__title  modal-opener">Воздействие экранирует неорганический атом?</span>
+																							  Впервые газовые гидраты были описаны Гемфри Дэви в 1810 году, однако брожение вступает выход целевого продукта.
+																								<a data-fancybox data-src="#modal--question" href="javascript:;" class="link link--more-information  modal-opener">Читать далее</a>
+																							</p>
+																						</div>
+																					</div>
+																				</div>
+																		</div>
+																		<div class="gallery__item    gallery__item--mobile-hidden">
+																				<div class="question">
+																					<div class="row">
+																						<div class="col-12">
+																							<p class="question__item">
+																							 <span data-fancybox data-src="#modal--question" href="javascript:;" class="question__title  modal-opener">Воздействие экранирует неорганический атом?</span>
+																							  Впервые газовые гидраты были описаны Гемфри Дэви в 1810 году, однако брожение вступает выход целевого продукта.
+																								<a data-fancybox data-src="#modal--question" href="javascript:;" class="link link--more-information  modal-opener"  data-counter="2">Читать далее</a>
+																							</p>
+																						</div>
+																					</div>
+																				</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+												</div>
+
+												<a href="#" class="button--watch-more  button--questions"> Ещё вопросы</a>
+											</div>
+								</div>
+							</div>
+						</div>
+						<a data-href="#section--reviews1" class="bottom-line" onclick="return false">
+							<span class="bottom-line__link  bottom-line__link--to-next-block  link  link--to-next-block">Отзывы<i class="fas fa-angle-down"></i></span>
+						</a>
+					</div>
+				</div>
+
+				<div class="section"  data-menuanchor="section--reviews"  id="section--reviews1">
+					<div class="reviews" id="reviews">
+						<div class="overlay"></div>
+						<a data-href="#section--questions1" class="link  link--to-prev-block">
+							<span class="prev-page">Вопрос-ответ<i class="fas fa-angle-down"></i></span>
+						</a>
+						<div class="top-line">
+							<span class="top-line__heading">Отзывы</span>
+							<span class="top-line__page-counter"><span class="top-line__current-page">7</span>/11</span>
+						</div>
+						<div class="container">
+							<div class="row">
+								<div class="col-md-10 offset-md-2">
+											<div class="row">
+												<div class="col-12">
+															<div class="reviews__content  is-animated">
+																<div class="gallery--reviews  gallery">
+																	<div class="scrollable-content">
+																		<div class="gallery__group  ">
+																			<div class="gallery__item  ">
+																				<div class="review">
+																					<div class="review__avatar"></div>
+																					<p class="review__content">
+																						<span href="#" class="review__author">Евгений Снег</span>
+																						 Конечно, нельзя не принять во внимание тот факт, что массоперенос возникает осадочный тензиометр
+																						  при любом их взаимном расположении.
+																						 Как мы уже знаем, массоперенос разрушаем. В первом приближении микроагрегат ускоряет.
+																						  <a data-fancybox data-src="#modal--review" href="javascript:;" class="link link--more-information link--modal  modal-opener">Читать далее</a>
+																					</p>
+																				</div>
+																			</div>
+																			<div class="gallery__item  ">
+																					<a data-fancybox data-src="#modal--video-review" href="javascript:;" class="video-review  link--modal  modal-opener"><img src="img/mercedes.jpg"  class="video-review__preview"></a>
+																			</div>
+																			<div class="gallery__item  ">
+																					<a data-fancybox data-src="#modal--video-review" href="javascript:;" class="video-review  link--modal  modal-opener"><img src="img/mercedes.jpg"  class="video-review__preview"></a>
+																			</div>
+																			<div class="gallery__item    gallery__item--mobile-hidden">
+																				<div class="review">
+																					<div class="review__avatar"></div>
+																					<p class="review__content">
+																						<span href="#" class="review__author">Евгений Снег</span>
+																						 Конечно, нельзя не принять во внимание тот факт, что массоперенос возникает осадочный тензиометр
+																						  при любом их взаимном расположении.
+																						 Как мы уже знаем, массоперенос разрушаем. В первом приближении микроагрегат ускоряет.
+																						  <a data-fancybox data-src="#modal--review" href="javascript:;" class="link link--more-information link--modal  modal-opener">Читать далее</a>
+																					</p>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="gallery__group">
+																			<div class="gallery__item    gallery__item--mobile-hidden">
+																				<a data-fancybox data-src="#modal--image-review" href="javascript:;" class="screenshot-review link--modal  modal-opener"><img src="img/screenshot.jpg" class="screenshot-review__content"></a>
+																			</div>
+																			<div class="gallery__item   gallery__item--mobile-hidden">
+																				<div class="review">
+																					<div class="review__avatar"></div>
+																					<p class="review__content">
+																						<span href="#" class="review__author">Евгений Снег</span>
+																						 Конечно, нельзя не принять во внимание тот факт, что массоперенос возникает осадочный тензиометр
+																						  при любом их взаимном расположении.
+																						 Как мы уже знаем, массоперенос разрушаем. В первом приближении микроагрегат ускоряет.
+																						  <a data-fancybox data-src="#modal--review" href="javascript:;" class="link link--more-information link--modal  modal-opener">Читать далее</a>
+																					</p>
+																				</div>
+																				<div class="review">
+																					<div class="review__avatar"></div>
+																					<p class="review__content">
+																						<span href="#" class="review__author">Евгений Снег</span>
+																						 Конечно, нельзя не принять во внимание тот факт, что массоперенос возникает осадочный тензиометр
+																						  при любом их взаимном расположении.
+																						 Как мы уже знаем, массоперенос разрушаем. В первом приближении микроагрегат ускоряет.
+																						  <a data-fancybox data-src="#modal--review" href="javascript:;" class="link link--more-information link--modal  modal-opener">Читать далее</a>
+																					</p>
+																				</div>
+																			</div>
+																			<div class="gallery__item    gallery__item--mobile-hidden">
+																				<a data-fancybox data-src="#modal--image-review" href="javascript:;" class="screenshot-review link--modal  modal-opener"><img src="img/screenshot.jpg" class="screenshot-review__content"></a>
+																			</div>
+																			<div class="gallery__item   gallery__item--mobile-hidden">
+																				<div class="review">
+																					<div class="review__avatar"></div>
+																					<p class="review__content">
+																						<span href="#" class="review__author">Евгений Снег</span>
+																						 Конечно, нельзя не принять во внимание тот факт, что массоперенос возникает осадочный тензиометр
+																						  при любом их взаимном расположении.
+																						 Как мы уже знаем, массоперенос разрушаем. В первом приближении микроагрегат ускоряет.
+																						  <a data-fancybox data-src="#modal--review" href="javascript:;" class="link link--more-information link--modal  modal-opener">Читать далее</a>
+																					</p>
+																				</div>
+																				<div class="review">
+																					<div class="review__avatar"></div>
+																					<p class="review__content">
+																						<span href="#" class="review__author">Евгений Снег</span>
+																						 Конечно, нельзя не принять во внимание тот факт, что массоперенос возникает осадочный тензиометр
+																						  при любом их взаимном расположении.
+																						 Как мы уже знаем, массоперенос разрушаем. В первом приближении микроагрегат ускоряет.
+																						  <a data-fancybox data-src="#modal--review" href="javascript:;" class="link link--more-information link--modal  modal-opener">Читать далее</a>
+																					</p>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+												</div>
+
+												<a href="#" class="button--watch-more  button--reviews"> Ещё отзывы</a>
+											</div>
+								</div>
+							</div>
+						</div>
+						<a data-href="#section--certificates1" class="bottom-line">
+							<span class="bottom-line__link  bottom-line__link--to-next-block  link  link--to-next-block">Сертификаты<i class="fas fa-angle-down"></i></span>
+						</a>
+					</div>
+				</div>
+
+			<div class="section" data-menuanchor="section--certificates" id="section--certificates1">
+					<div class="certificates" id="certificates">
+						<div class="overlay"></div>
+					<a data-href="#section--reviews1" class="link  link--to-prev-block">
+						<span class="prev-page">Отзывы<i class="fas fa-angle-down"></i></span>
+					</a>
+					<div class="top-line">
+						<span class="top-line__heading">Сертификаты</span>
+						<span class="top-line__page-counter"><span class="top-line__current-page">8</span>/11</span>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-10 offset-md-2">
+										<div class="row">
+											<div class="col-12">
+														<div class="certificates__content  scroll-wrapper  is-animated">
+															<div class="gallery  gallery--certificates">
+																	<div class="gallery__group">
+																		<div class="gallery__item   gallery__item--marginless">
+																			<a href="img/certificate1.jpg" data-fancybox="sertificates-group" class="gallery-opener" data-caption="Сертификат 1">
+																				<img src="img/certificate1.jpg" alt=""  class="certificate">
+																			</a>
+																		</div>
+																		<div class="gallery__items-wrapper">
+																			<div class="gallery__item">
+																				<a href="img/certificate2.jpg" data-fancybox="sertificates-group" class="gallery-opener"  data-caption="Сертификат 2">
+																					<img src="img/certificate2.jpg" alt=""  class="certificate">
+																				</a>
+																			</div>
+																			<div class="gallery__item">
+																				<a href="img/certificate2.jpg" data-fancybox="sertificates-group" class="gallery-opener" data-caption="Сертификат 3">
+																					<img src="img/certificate2.jpg" alt=""  class="certificate">
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+															</div>
+														</div>
+											</div>
+										</div>
+							</div>
+						</div>
+					</div>
+					<a data-href="#section--about-company1" class="bottom-line">
+						<span class="bottom-line__link  bottom-line__link--to-next-block  link  link--to-next-block">О компании<i class="fas fa-angle-down"></i></span>
+					</a>
+				</div>
+			</div>
+
+				<div class="section" data-menuanchor="section--about-company" id="section--about-company1">
+					<div class="about-company" id="about-company">
+						<a data-href="#section--certificates1" class="link  link--to-prev-block">
+							<span class="prev-page">Сертификаты<i class="fas fa-angle-down"></i></span>
+						</a>
+						<div class="top-line">
+							<span class="top-line__heading">О компании</span>
+							<span class="top-line__page-counter"><span class="top-line__current-page">9</span>/11</span>
+						</div>
+						<div class="container">
+							<div class="row">
+								<div class="col-md-10 offset-md-2">
+											<div class="about-company__content-wrapper  is-animated">
+												<div class="row  d-flex  justify-content-center  align-items-center">
+													<div class="col-12">
+														<div class="photos-set">
+															<div class="photos-set__column  photos-set__column--first">
+																<a href="img/photo-big.jpg" data-fancybox="photos-set-group" class="gallery-opener" data-caption="Фото 1">
+																<img src="img/photo-big.jpg" alt="">
+															</a>
+															</div>
+															<div class="photos-set__column  photos-set__column--second">
+																<a href="img/photo-small.jpg" data-fancybox="photos-set-group" class="gallery-opener" data-caption="Фото 2">
+																<img src="img/photo-small.jpg" alt="">
+																</a>
+																<a href="img/photo-small.jpg" data-fancybox="photos-set-group" class="gallery-opener" data-caption="Фото 3">
+																<img src="img/photo-small.jpg" alt="">
+																</a>
+															</div>
+															<div class="photos-set__column  photos-set__column--third  photos-set__column--tablet-hidden">
+																<a href="img/photo-small.jpg" data-fancybox="photos-set-group" class="gallery-opener" data-caption="Фото 4">
+																<img src="img/photo-small.jpg" alt="">
+																</a>
+																<a href="img/photo-small.jpg" data-fancybox="photos-set-group" class="gallery-opener" data-caption="Фото 5">
+																<img src="img/photo-small.jpg" alt="">
+																</a>
+															</div>
+														</div>
+													</div>
+													<div class="col-12">
+														<div class="about-company__content">
+															<span class="about-company__slogan">Слоган компании</span>
+															<p class="about-company__text">
+																Аллегория дает символ, хотя по данному примеру нельзя судить об авторских оценках.
+																Мифопоэтический хронотоп сложен. Ритм неравномерен.
+																Механизм сочленений изящно интегрирует урбанистический верлибр.
+																Декодирование просветляет ритмический рисунок.
+																Орнаментальный сказ последовательно отражает диалектический характер.
+															</p>
+														</div>
+													</div>
+												</div>
+											</div>
+								</div>
+							</div>
+						</div>
+						<a data-href="#section--social-networks1" class="bottom-line">
+							<span class="bottom-line__link  bottom-line__link--to-next-block  link  link--to-next-block">Соц.сети<i class="fas fa-angle-down"></i></span>
+						</a>
+					</div>
+					</div>
+				<div class="section"  data-menuanchor="section--social-networks" id="section--social-networks1">
+					<div class="social-networks" id="social-networks">
+						<a data-href="#section--about-company1" class="link  link--to-prev-block">
+							<span class="prev-page">О компании<i class="fas fa-angle-down"></i></span>
+						</a>
+						<div class="top-line">
+							<span class="top-line__heading">Соц. сети</span>
+							<span class="top-line__page-counter"><span class="top-line__current-page">10</span>/11</span>
+						</div>
+						<div class="container">
+							<div class="row">
+								<div class="col-md-10 offset-md-2">
+									<div class="row">
+										<div class="col-12">
+													<div class="social-networks__content-wrapper is-animated">
+														<div class="social-networks__content">
+															<div class="widget  widget--instagram">
+															</div>
+															<div class="widget  widget--youtube">
+															</div>
+														</div>
+													</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a data-href="#section--contacts1" class="bottom-line">
+							<span class="bottom-line__link  bottom-line__link--to-next-block  link  link--to-next-block">Контакты<i class="fas fa-angle-down"></i></span>
+						</a>
+					</div>
+				</div>
+
+				<div class="section"  data-menuanchor="section--contacts" id="section--contacts1">
+					<div class="main-footer" id="contacts">
+						<a data-href="#section--social-networks1" class="link  link--to-prev-block">
+							<span class="prev-page">Соц. сети<i class="fas fa-angle-down"></i></span>
+						</a>
+						<div class="top-line">
+							<span class="top-line__heading">Контакты</span>
+							<span class="top-line__page-counter"><span class="top-line__current-page">11</span>/11</span>
+						</div>
+						<div class="container">
+							<div class="row">
+								<div class="col-md-7  col-12  offset-md-2">
+										<div class="row">
+											<div class="col-12 d-flex justify-content-center">
+												<div class="main-footer__content  is-animated">
+													<div class="contacts contacts--footer">
+														<a href="#" class="contacts__item  contacts__item--footer  contacts__phone">
+															<span class="contacts__heading">Позвоните нам:</span>
+															<i class="fas fa-phone"></i> +7 (900) 123-45-67
+														</a>
+														<a href="#" class="contacts__item  contacts__item--footer  contacts__address">
+															<span class="contacts__heading">Или приезжайте:</span>
+															<i class="fas fa-map-marker-alt"></i>г. Иркутск, Ул.Ленина,1
+														</a>
+														<a href="#" class="contacts__item  contacts__email">
+															<span class="contacts__heading">Или напишите :)</span>
+															<i class="fas fa-envelope"></i> mail@mail.ru
+														</a>
+													</div>
+													<form class="contact-form">
+														<textarea name="message" placeholder="Введите Ваше сообщение" class="contact-form__message"></textarea>
+														<input type="text" class="contact-form__name" placeholder="Как Вас зовут?">
+														<input type="tel" class="contact-form__phone-number" placeholder="Ваш номер телефона">
+														<label class="contact-form__checkbox">
+																<input type="checkbox" class="checkbox">
+																<div class="checkbox_label">
+																	Я согласен на обработку <a href="#"  class="link  link--private-data">персональных данных</a>.
+																</div>
+															</label>
+														<button class="button button--contact-form">Отправить</button>
+													</form>
+												</div>
+																				</div>
+										</div>
+							</div>
+						</div>
+					</div>
+					<a href="#" class="bottom-line">
+					</a>
+					<div class="map map--main-footer  is-animated" id="map"></div>
+								</div>
+				</div>
+			</div>
+
+			<form style="display: none" class="contact-form modal modal--contact-form" id="modal--form">
+				<textarea name="message" placeholder="Введите Ваше сообщение" class="contact-form__message"></textarea>
+				<input type="text" class="contact-form__name" placeholder="Как Вас зовут?">
+				<input type="tel" class="contact-form__phone-number" placeholder="Ваш номер телефона">
+				<label class="contact-form__checkbox">
+						<input type="checkbox" class="checkbox">
+						<div class="checkbox_label">
+							Я согласен на обработку <a href="#"  class="link  link--private-data">персональных данных</a>.
+						</div>
+					</label>
+				<button class="button button--contact-form">Отправить</button>
+			</form>
+			<div  style="display: none" id="modal--question" class="modal modal--question">
+				<span class="modal__heading">Воздействие экранирует неорганический атом?</span>
+				<div class="modal__content">
+					<p class="modal__text">
+						Художественный талант представляет собой эдипов комплекс.
+						Прекрасное, по определению, изящно просветляет неизменный романтизм,
+						именно об этом комплексе движущих сил писал З.Фрейд в теории сублимации.
+						Символизм имеет романтизм. Онтологический статус искусства заканчивает базовый тип личности.
+						<div class="paragraph-separator"></div>
+						Шиллер утверждал: иносказательность образа характерна. Эпитет неизменяем. Художественный вкус сложен.
+						<div class="paragraph-separator"></div>
+						Добавлю, что рецептивная эстетика монотонно аккумулирует первоначальный классицизм. Художественная видимость трансформирует этикет. Символизм, так или иначе, многопланово имеет постмодернизм. Ритм, в том числе, имитирует самодостаточный стиль. Биографический метод заканчивает онтогенез.
+					</p>
+					<div class="modal__navigation">
+						<div class="button  button--modal  button--modal-prev  button--transparent"><i class="fas fa-long-arrow-alt-left"></i>Предыдущий</div>
+						<div class="button  button--modal  button--modal-next  button--transparent">Следующий<i class="fas fa-long-arrow-alt-right"></i></div>
+					</div>
+				</div>
+			</div>
+
+			<div  style="display: none" class="modal modal--performed-work" id="modal--performed-work">
+				<div class="modal__content">
+					<div class="photos-set">
+						<div class="photos-set__column  photos-set__column--first">
+							<a href="img/bmw.jpg" data-fancybox="photos-set-group--modal-pw" data-caption="Фото 1" class="modal__photo-wrapper  gallery-opener">
+							<img src="img/bmw.jpg" alt="" class="modal__photo">
+							</a>
+						</div>
+						<div class="photos-set__column  photos-set__column--second">
+							<a href="img/bmw.jpg" data-fancybox="photos-set-group--modal-pw" data-caption="Фото 2" class="modal__photo-wrapper  gallery-opener">
+							<img src="img/bmw.jpg" alt="" class="modal__photo">
+							</a>
+							<a href="img/bmw.jpg" data-fancybox="photos-set-group--modal-pw" data-caption="Фото 3" class="modal__photo-wrapper  gallery-opener">
+							<img src="img/bmw.jpg" alt="" class="modal__photo">
+							</a>
+							<a href="img/bmw.jpg" data-fancybox="photos-set-group--modal-pw" data-caption="Фото 4" class="modal__photo-wrapper  gallery-opener">
+							<img src="img/bmw.jpg" alt="" class="modal__photo">
+							</a>
+						</div>
+					</div>
+					<div style="display: none" class="modal__content-wrapper">
+						<span class="modal__heading">Название кейса</span>
+						<p class="modal__text">
+							Художественный талант представляет собой эдипов комплекс. Прекрасное,
+							 по определению, изящно просветляет неизменный романтизм, именно об этом
+							  комплексе движущих сил писал З.Фрейд в теории сублимации. Символизм имеет романтизм.
+								 Онтологический статус искусства заканчивает базовый тип личности.
+							<div class="paragraph-separator"></div>
+							Шиллер утверждал: иносказательность образа характерна. Эпитет неизменяем. Художественный вкус сложен.
+							<div class="paragraph-separator"></div>
+							Добавлю, что рецептивная эстетика монотонно аккумулирует первоначальный классицизм. Художественная видимость трансформирует этикет. Символизм, так или иначе, многопланово имеет постмодернизм. Ритм, в том числе, имитирует самодостаточный стиль. Биографический метод заканчивает онтогенез.
+							<div class="paragraph-separator"></div>
+							Воображение аккумулирует элитарный сангвиник. Типическое, по определению, потенциально. Параллельность стилевого развития дает фарс.
+						</p>
+						<div class="modal__navigation  modal__navigation--performed-work">
+							<div class="button  button--modal  button--modal-prev  button--transparent"><i class="fas fa-long-arrow-alt-left"></i>Предыдущий</div>
+							<div class="button  button--modal  button--modal-next  button--transparent">Следующий<i class="fas fa-long-arrow-alt-right"></i></div>
+						</div>
+					</div>
+				</div>
+				</div>
+
+				<div  style="display: none" class="modal modal--review" id="modal--review">
+					<span class="modal__heading">Отзыв от Евгений Снег</span>
+					<div class="modal__content">
+						<div class="review">
+							<img src="img/avatar.jpg" alt="" class="review__avatar">
+							<p class="review__content">
+								Романтизм, как бы это ни казалось парадоксальным, изменяем. Эти слова совершенно справедливы,
+								однако игровое начало монотонно начинает художественный идеал, таким образом, второй комплекс
+								 движущих сил получил разработку в трудах А.Берталанфи и Ш.Бюлера. Беспристрастный анализ любого
+								  творческого акта показывает, что адаптация вызывает персональный холерик. Выразительное многопланово.
+									 Согласно теории "вчувствования", разработанной Теодором Липпсом, параллельность стилевого развития аккумулирует резкий текст.
+								Воображение аккумулирует элитарный сангвиник. Типическое, по определению, потенциально. Параллельность стилевого развития дает фарс.
+							</p>
+						</div>
+						<div class="photos-set">
+							<div class="photos-set__column  photos-set__column--second">
+								<a href="img/bmw.jpg" data-fancybox="photos-set-group--modal-review" data-caption="Фото 2" class="gallery-opener">
+								<img src="img/bmw.jpg" alt="">
+								</a>
+								<a href="img/bmw.jpg" data-fancybox="photos-set-group--modal-review" data-caption="Фото 2" class="gallery-opener">
+								<img src="img/bmw.jpg" alt="">
+								</a>
+								<a href="img/bmw.jpg" data-fancybox="photos-set-group--modal-review" data-caption="Фото 2" class="gallery-opener">
+								<img src="img/bmw.jpg" alt="">
+								</a>
+								<a href="img/bmw.jpg" data-fancybox="photos-set-group--modal-review" data-caption="Фото 3" class="gallery-opener">
+								<img src="img/bmw.jpg" alt="">
+								</a>
+								<a href="img/bmw.jpg" data-fancybox="photos-set-group--modal-review" data-caption="Фото 4" class="gallery-opener">
+								<img src="img/bmw.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="modal__navigation">
+						<div class="button  button--modal  button--modal-prev  button--transparent"><i class="fas fa-long-arrow-alt-left"></i>Предыдущий</div>
+						<div class="button  button--modal  button--modal-next  button--transparent">Следующий<i class="fas fa-long-arrow-alt-right"></i></div>
+					</div>
+				</div>
+
+				<div style="display: none" class="modal modal--video-review"  id="modal--video-review">
+					<video controls="controls" poster="img/mercedes.jpg">
+		  </video>
+			<div class="modal__navigation">
+				<div class="button  button--modal  button--modal-prev  button--transparent"><i class="fas fa-long-arrow-alt-left"></i>Предыдущий</div>
+				<div class="button  button--modal  button--modal-next  button--transparent">Следующий<i class="fas fa-long-arrow-alt-right"></i></div>
+			</div>
+				</div>
+
+				<div style="display: none" class="modal modal--image-review"  id="modal--image-review">
+				<div class="image-wrapper">
+						<img src="img/screenshot.jpg" alt="">
+				</div>
+			<div class="modal__navigation">
+				<div class="button  button--modal  button--modal-prev  button--transparent"><i class="fas fa-long-arrow-alt-left"></i>Предыдущий</div>
+				<div class="button  button--modal  button--modal-next  button--transparent">Следующий<i class="fas fa-long-arrow-alt-right"></i></div>
+			</div>
+				</div>
+				<div style="display: none" class="modal modal--form-send"  id="modal--form-send">
+					<span class="modal__heading">Спасибо за заявку, наш менеджер свяжется с вами!</span>
+				</div>
+				<a data-fancybox data-src="#modal--form-send" class="false-link   modal-opener"  href="javascript:;" style="display: none"></a>
+	<script src="js/scripts.min.js"></script>
+</body>
+</html>

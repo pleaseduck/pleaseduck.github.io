@@ -99,3 +99,6 @@
 .Barbershop-body .feedback {
   margin-bottom: 0;
 }
+.portfolio-hidden {
+  display: none;
+}
